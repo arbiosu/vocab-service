@@ -34,7 +34,7 @@
 
 3. using cURL: POST method
     ```
-    # replace (list_id) and (unit_id) with whatever values you need to query.
+    # replace list_id and unit_id with whatever values you need to query.
     curl -i -X POST -H "Content-Type: application/json" -d "{\"list\":list_id, \"unit\": unit_id}" http://localhost:5000/query
     ```
 4. using cURL: GET method
@@ -44,3 +44,7 @@
     ```
 
 ## How to programmatically RECEIVE data from vocab-service
+
+
+## UML Sequence Diagram
+(/sequence_diagram_vocab_service.PNG)
