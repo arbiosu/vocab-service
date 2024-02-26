@@ -79,8 +79,6 @@ def query_get():
 
     conn.close()
 
-    print(f'Query result: {output}')
-
     return jsonify(output)
 
 
