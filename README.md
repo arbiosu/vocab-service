@@ -5,9 +5,10 @@
     - python3 app.py
     - starts a server on http://localhost:5000
 2. Using Python: POST method
-    **replace list_id and unit_id with whatever values
-    you need to query.**
+
     ```
+    # replace list_id and unit_id with whatever values
+    you need to query.
     import requests
     import json
     url = 'http://localhost:5000/query'
@@ -23,8 +24,8 @@
     import json
     url = "http://localhost:5000/query-get"
     params = {
-    "list": 1,
-    "unit": 2
+    "list": list_id,
+    "unit": unit_id
     }
     response = requests.get(url, params=params)
     print("Status Code:", response.status_code)
