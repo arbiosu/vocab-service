@@ -47,4 +47,4 @@
 
 
 ## UML Sequence Diagram
-(/sequence_diagram_vocab_service.PNG)
+![UML diagram](/sequence_diagram_vocab_service.PNG)
