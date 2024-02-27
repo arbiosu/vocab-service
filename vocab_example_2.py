@@ -1,7 +1,9 @@
+# GET method
+
 import requests
 import json
 
-# Specify the URL of your Flask app's endpoint
+# Set up the connection to the API endpoint
 url = "http://localhost:5000/query-get"
 
 # Specify the query parameters
